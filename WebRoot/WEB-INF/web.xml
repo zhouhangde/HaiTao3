@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>HaiTao3</display-name>
+  <servlet>
+    <servlet-name>ManagerLoginServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.ManagerLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerLoginServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.CustomerLoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>SelectAllCustomerServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.SelectAllCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCustomerServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.DeleteCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCustomerServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.UpdateCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCustomerServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.AddCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadCustomerServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.LoadCustomerServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>PagingCusServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.PagingCusServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoServlet2</servlet-name>
+    <servlet-class>com.haitao.servlet.GoServlet2</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.AddProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PagingProServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.PagingProServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectProByIdServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.SelectProByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateProServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.UpdateProServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteProServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.DeleteProServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>goServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.goServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectProServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.SelectProServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectCusServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.SelectCusServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ManagerLoginServlet</servlet-name>
+    <url-pattern>/ManagerLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerLoginServlet</servlet-name>
+    <url-pattern>/CustomerLogin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>SelectAllCustomerServlet</servlet-name>
+    <url-pattern>/SelectAllCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCustomerServlet</servlet-name>
+    <url-pattern>/deleteCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCustomerServlet</servlet-name>
+    <url-pattern>/updateCustom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustomerServlet</servlet-name>
+    <url-pattern>/addCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadCustomerServlet</servlet-name>
+    <url-pattern>/loadCustomerById</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>PagingCusServlet</servlet-name>
+    <url-pattern>/PagingCus</url-pattern>
+  </servlet-mapping>
+   
+  <servlet-mapping>
+    <servlet-name>GoServlet2</servlet-name>
+    <url-pattern>/GoServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/AddProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PagingProServlet</servlet-name>
+    <url-pattern>/PagingPro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectProByIdServlet</servlet-name>
+    <url-pattern>/SelectProById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateProServlet</servlet-name>
+    <url-pattern>/UpdatePro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteProServlet</servlet-name>
+    <url-pattern>/DeletePro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>goServlet</servlet-name>
+    <url-pattern>/goServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectProServlet</servlet-name>
+    <url-pattern>/SelectPro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectCusServlet</servlet-name>
+    <url-pattern>/SelectCus</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteSalServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.DeleteSalServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PagingSal</servlet-name>
+    <servlet-class>com.haitao.servlet.PagingSal</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>goSal</servlet-name>
+    <servlet-class>com.haitao.servlet.goSal</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectSal</servlet-name>
+    <servlet-class>com.haitao.servlet.SelectSal</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectSalById</servlet-name>
+    <servlet-class>com.haitao.servlet.SelectSalById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateSal</servlet-name>
+    <servlet-class>com.haitao.servlet.UpdateSal</servlet-class>
+  </servlet>
+  
+	<servlet-mapping>
+    <servlet-name>DeleteSalServlet</servlet-name>
+    <url-pattern>/DeleteSalServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PagingSal</servlet-name>
+    <url-pattern>/PagingSal</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>goSal</servlet-name>
+    <url-pattern>/goSal</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectSal</servlet-name>
+    <url-pattern>/SelectSal</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectSalById</servlet-name>
+    <url-pattern>/SelectSalById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSal</servlet-name>
+    <url-pattern>/UpdateSal</url-pattern>
+  </servlet-mapping>  
+  
+   <servlet>
+  <servlet-name>SelectManagerservlet</servlet-name>
+  <servlet-class>com.chinasoft.servlet.SelectManagerservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateManagerServlet</servlet-name>
+    <servlet-class>com.chinasoft.servlet.UpdateManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteManagerServlet</servlet-name>
+    <servlet-class>com.chinasoft.servlet.DeleteManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InsertManagerServlet</servlet-name>
+    <servlet-class>com.chinasoft.servlet.InsertManagerServlet</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+  <servlet-name>SelectManagerservlet</servlet-name>
+  <url-pattern>/selectManagerservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateManagerServlet</servlet-name>
+    <url-pattern>/updateManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteManagerServlet</servlet-name>
+    <url-pattern>/deleteManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertManagerServlet</servlet-name>
+    <url-pattern>/insertManagerServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>SelectAdminServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.SelectAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateAdminServlet</servlet-name>
+    <servlet-class>com.haitao.servlet.UpdateAdminServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>SelectAdminServlet</servlet-name>
+    <url-pattern>/SelectAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAdminServlet</servlet-name>
+    <url-pattern>/UpdateAdmin</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+
+
+
+
+
+
+
+
+</web-app>
